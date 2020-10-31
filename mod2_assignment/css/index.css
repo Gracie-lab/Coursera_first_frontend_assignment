@@ -1,0 +1,74 @@
+.header{
+    text-align: center;
+}
+
+.innerdiv{
+    padding: 5px;
+}
+
+
+@media (min-width: 992px){
+    .section{
+        background-color: grey;
+        width: 25%;
+        float: left;
+        margin-right: 25px;
+        margin-left: 15px;
+       
+        
+    }    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+   #init{
+        background-color: grey;
+        width: 50%;
+        float: left;
+        /* float: left;
+        margin-right: 25px;
+        margin-left: 15px; */
+        
+    } 
+    
+    #one{
+        background-color: grey;
+        width: 50%;
+        float: left;
+    }
+
+    #two{
+        background-color: grey;
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 767px){
+    .section{
+        background-color: grey;
+        width: 100%;
+        /* float: left;
+        margin-right: 25px;
+        margin-left: 15px; */
+        
+    }   
+}
+
+/* .section2{
+    background-color: grey;
+    width: 50%;
+   
+    
+}
+.section3{
+    background-color: grey;
+    width: 50%;
+    float: right;
+    
+} */
+
+.sub{
+    background-color: red;
+    float: right;
+    margin-right: 10px;
+}
